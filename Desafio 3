@@ -1,0 +1,8 @@
+n1 = input('Insira o primeiro número: ')
+n2 = input('Insira o segundo número: ')
+soma = int(n1) + int(n2)                 
+
+print('A soma entre os dois números é:', soma)
+
+#Em "soma", declarou-se ambas as variáveis (n1 e n2) como inteiras e aplicou-se uma adição sobre elas. 
+#E ai na hora do print só precisamos chamar a função "soma" em vez de incluir n1 e n2, visto que ambas ja estão inclusas na mesma.
